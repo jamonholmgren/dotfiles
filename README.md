@@ -14,7 +14,9 @@ $ git clone git@github.com:jamonholmgren/dotfiles.git
 Edit your .zshrc:
 
 ```
-source ./dotfiles/jamon.zsh
+cd $HOME/dotfiles
+source ./jamon.zsh
+cd -
 ```
 
 ## License

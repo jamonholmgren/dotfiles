@@ -1,5 +1,3 @@
-source $ZSH/oh-my-zsh.sh
-
 # Path to your oh-my-zsh configuration.
 export ZSH=$HOME/.oh-my-zsh
 
@@ -18,3 +16,8 @@ plugins=(
   brew
   alias-tips
 )
+
+source $ZSH/oh-my-zsh.sh
+
+# zsh syntax highlighting
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
