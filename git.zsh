@@ -20,13 +20,7 @@ alias gcon="grep -lr '<<<<<<<' ."
 alias gresolve="grep -lr '<<<<<<<' . | xargs git checkout"
 alias gresolve2='code $(git diff --name-only --diff-filter=U)'
 alias gh='git config --get remote.origin.url | ruby -ne "puts %{https://github.com/#{\$_.split(/.com[\:\/]/)[-1].gsub(%{.git},%{})}}"| xargs open'
-
-
-# Thanks to Tim Hopper for this
-function gpo {
-    CURRENT_BRANCH=$(git branch | awk '/^\* / { print $2 }')
-    git push --set-upstream origin $CURRENT_BRANCH
-}
+alias gpo='git push -u origin HEAD'
 
 function gdd () {
   git diff $1 --color | diff-so-fancy
