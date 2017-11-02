@@ -15,6 +15,9 @@ alias clearips="clearip"
 
 alias notify="terminal-notifier -message"
 
+alias ct="\cat"
+alias cat=ccat
+
 function dnd () {
   osascript -e "
     tell application \"System Events\" to tell process \"SystemUIServer\"
@@ -25,3 +28,6 @@ function dnd () {
   "
 }
 
+# if you're missing pureprompt, install with `npm install --global pure-prompt``
+autoload -U promptinit; promptinit
+prompt pure
