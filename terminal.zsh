@@ -28,6 +28,6 @@ function dnd () {
   "
 }
 
-# if you're missing pureprompt, install with `npm install --global pure-prompt``
+# if you're missing pureprompt, install with `npm install --global pure-prompt`
 autoload -U promptinit; promptinit
 prompt pure
