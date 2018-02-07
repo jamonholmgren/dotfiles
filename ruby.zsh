@@ -9,6 +9,6 @@ alias guard="bundle exec guard -c"
 alias b="bundle"
 alias be="bundle exec"
 
-export PATH=$PATH:/Users/jh/.rubies/ruby-2.2.3/bin
+export PATH=$PATH:/Users/jh/.rubies/ruby-2.5.0/bin
 
 source /usr/local/opt/chruby/share/chruby/chruby.sh
