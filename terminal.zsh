@@ -11,12 +11,14 @@ alias publicip="curl ipecho.net/plain; echo"
 
 alias clearip="sudo killall -HUP mDNSResponder"
 alias clearips="clearip"
-# alias please='sudo $(history -p \!\!)' # wat this?
 
 alias notify="terminal-notifier -message"
 
 alias ct="\cat"
 alias cat=ccat
+
+alias rrm="\rm"
+alias rm=trash
 
 function dnd () {
   osascript -e "

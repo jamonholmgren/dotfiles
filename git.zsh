@@ -29,3 +29,6 @@ function gdd () {
 }
 
 alias gchange='gh-changelog -m -s `git log --tags --pretty="format:%cI" -n1`'
+
+# Git deploy setup (for super easy static/PHP site deployments using Git)
+source './git-deploy.sh'
