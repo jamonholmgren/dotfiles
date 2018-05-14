@@ -1,6 +1,7 @@
 # Git aliases
 alias gac="git add -A && git commit -m "
 alias gam="git add -A && git commit --amend "
+alias gap="git add -p && git commit -m "
 alias gco="git checkout"
 alias gcob="git checkout -b"
 alias gcot="git checkout --track"
