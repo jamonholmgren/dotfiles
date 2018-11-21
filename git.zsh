@@ -5,6 +5,7 @@ alias gap="git add -p && git commit -m "
 alias gco="git checkout"
 alias gcob="git checkout -b"
 alias gcot="git checkout --track"
+alias gce="git commit --allow-empty -m"
 alias gpl="git pull"
 alias gps="git push"
 alias grv="git remote -v"
@@ -27,6 +28,11 @@ alias gbbb="git for-each-ref --sort=-committerdate refs/heads/ --format='%(HEAD)
 
 function gdd () {
   git diff $1 --color | diff-so-fancy
+}
+
+function gclone () {
+  git clone git@github.com:$1/$2.git
+  cd $2
 }
 
 alias gchange='gh-changelog -m -s `git log --tags --pretty="format:%cI" -n1`'

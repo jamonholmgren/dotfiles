@@ -2,7 +2,7 @@ alias show_hidden="defaults write com.apple.finder AppleShowAllFiles TRUE && kil
 alias hide_hidden="defaults write com.apple.finder AppleShowAllFiles FALSE && killall Finder"
 
 alias zr="source ~/.zshrc"
-alias ze="code ~/.zshrc"
+alias ze="code ~/Dropbox\ \(Personal\)/Terminal/"
 alias s="code ."
 alias a="a ."
 
@@ -13,7 +13,6 @@ alias clearip="sudo killall -HUP mDNSResponder"
 alias clearips="clearip"
 
 alias notify="terminal-notifier -message"
-
 alias ct="\cat"
 alias cat=ccat
 
