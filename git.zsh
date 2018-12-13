@@ -1,3 +1,6 @@
+# Alias "hub" as git. https://hub.github.com
+alias git="hub"
+
 # Git aliases
 alias gac="git add -A && git commit -m "
 alias gam="git add -A && git commit --amend "
