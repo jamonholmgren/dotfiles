@@ -35,7 +35,7 @@ function gclone () {
   cd $2
 }
 
-// Usage: ghco forkname reponame branchname
+# Usage: ghco forkname reponame branchname
 function ghco () {
   git checkout -b $1-$3 master
   git pull https://github.com/$1/$2.git $3
