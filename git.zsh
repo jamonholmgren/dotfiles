@@ -35,6 +35,12 @@ function gclone () {
   cd $2
 }
 
+// Usage: ghco forkname reponame branchname
+function ghco () {
+  git checkout -b $1-$3 master
+  git pull https://github.com/$1/$2.git $3
+}
+
 alias gchange='gh-changelog -m -s `git log --tags --pretty="format:%cI" -n1`'
 
 # Git deploy setup (for super easy static/PHP site deployments using Git)
