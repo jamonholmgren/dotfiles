@@ -4,7 +4,8 @@ alias hide_hidden="defaults write com.apple.finder AppleShowAllFiles FALSE && ki
 alias zr="source ~/.zshrc"
 alias ze="code ~/Dropbox\ \(Personal\)/Terminal/"
 alias s="code ."
-alias a="a ."
+
+alias l="exa -al"
 
 alias ip="ifconfig en0 | grep 'inet'"
 alias publicip="curl ipecho.net/plain; echo"
