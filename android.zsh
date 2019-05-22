@@ -1,4 +1,4 @@
-alias ae="emulator -netdelay none -netspeed full -avd Nexus_5X_API_25_x86"
+alias pixel2="emulator -netdelay none -netspeed full -avd Pixel_2_API_28"
 
 # React Native Android dev
 export ANDROID_HOME=$HOME/Library/Android/sdk
