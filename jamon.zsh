@@ -16,5 +16,8 @@ source ./elixir.zsh      # settings for Elixir development
 source ./elm.zsh         # settings for Elm development
 source ./js.zsh          # settings for JavaScript development
 
+# Fun
+source ./happy.zsh       # easter egg
+
 # Disabled
 # source ./deploy.zsh      # a handy deployment script for static websites

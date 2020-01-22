@@ -4,12 +4,19 @@
 setup_jamon_environment () {
   # homebrew
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-  # zsh and lots of other cool things
-  brew install --without-docs node git zsh zsh-completions zsh-syntax-highlighting ccat ripgrep exa trash chruby ruby-install elixir hub
+  
+  # zsh and lots of other cool things -- DISABLED
+  # brew install --without-docs node git zsh zsh-completions zsh-syntax-highlighting ccat ripgrep exa trash chruby ruby-install elixir hub
+  
+  # newer macs 
+  brew install zsh-completions zsh-syntax-highlighting ccat z
+
   # oh-my-zsh
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
   # pureprompt
-  npm install --global pure-prompt
+  # yarn global add pure-prompt
+  npm install -g pure-prompt
+
   # elixir
-  \curl -sSL https://raw.githubusercontent.com/taylor/kiex/master/install | bash -s
+  # \curl -sSL https://raw.githubusercontent.com/taylor/kiex/master/install | bash -s
 }

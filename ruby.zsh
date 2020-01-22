@@ -9,6 +9,13 @@ alias guard="bundle exec guard -c"
 alias b="bundle"
 alias be="bundle exec"
 
-export PATH=$PATH:/Users/jh/.rubies/ruby-2.5.0/bin
+# ruby-install x
+# export PATH=$PATH:/Users/jh/.rubies/ruby-2.5.0/bin
 
-source /usr/local/opt/chruby/share/chruby/chruby.sh
+# brew install ruby
+export PATH=/usr/local/lib/ruby/gems/2.6.0/bin:/usr/local/opt/ruby/bin:$PATH
+
+# source /usr/local/opt/chruby/share/chruby/chruby.sh
+
+# chruby 2.5.0
+

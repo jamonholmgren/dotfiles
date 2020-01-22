@@ -17,6 +17,9 @@ plugins=(
   alias-tips
 )
 
+# NOTE: alias-tips needs to be cloned into the custom plugins folder
+# See: https://github.com/djui/alias-tips#oh-my-zsh
+
 source $ZSH/oh-my-zsh.sh
 
 # zsh syntax highlighting
