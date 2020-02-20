@@ -17,6 +17,9 @@ source ./elixir.zsh      # settings for Elixir development
 source ./elm.zsh         # settings for Elm development
 source ./js.zsh          # settings for JavaScript development
 
+# URL shortener
+source ./shortener.zsh   # shorten, shorteners, and shorten_undo
+
 # Fun
 source ./happy.zsh       # easter egg
 
