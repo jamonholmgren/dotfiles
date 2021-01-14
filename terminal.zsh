@@ -30,6 +30,11 @@ function dnd () {
   "
 }
 
+function fixbluetooth () {
+  sudo kextunload -b com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport
+  sudo kextload -b com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport
+}
+
 # if you're missing pureprompt, install with `npm install --global pure-prompt`
 autoload -U promptinit; promptinit
 prompt pure
