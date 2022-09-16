@@ -2,8 +2,8 @@ alias show_hidden="defaults write com.apple.finder AppleShowAllFiles TRUE && kil
 alias hide_hidden="defaults write com.apple.finder AppleShowAllFiles FALSE && killall Finder"
 
 alias zr="source ~/.zshrc"
-alias ze="code ~/Dropbox\ \(Personal\)/Terminal/"
-alias zcd="cd ~/Dropbox\ \(Personal\)/Terminal/"
+alias ze="code ~/dotfiles"
+alias zcd="cd ~/dotfiles"
 alias s="code ."
 
 alias l="exa -al"
@@ -19,6 +19,8 @@ alias ct="\cat"
 alias cat=ccat
 
 alias rrm="\rm"
+
+# https://twitter.com/jamonholmgren/status/967548502648668161
 alias rm=trash
 
 function dnd () {

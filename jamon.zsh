@@ -25,3 +25,6 @@ source ./js.zsh          # settings for JavaScript development
 
 # Disabled
 # source ./deploy.zsh      # a handy deployment script for static websites
+
+# load asdf
+# . /opt/homebrew/opt/asdf/libexec/asdf.sh
