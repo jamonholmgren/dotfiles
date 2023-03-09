@@ -17,6 +17,9 @@
 # export PATH=$PATH:$ANDROID_HOME/tools/bin
 # export PATH=$PATH:$ANDROID_HOME/platform-tools
 
+# QBasic
+# export PATH=$PATH:$PATH:~/Code/QuickBasic64
+
 # Yarn
 # export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
