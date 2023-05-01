@@ -13,7 +13,10 @@
 # export PATH=$PATH:/Users/jh/.rubies/ruby-2.5.0/bin
 
 # brew install ruby
-export PATH="/opt/homebrew/opt/ruby@2.7/bin:$PATH"
+# export PATH="/opt/homebrew/opt/ruby@3.1/bin:$PATH"
+
+# rbenv install 2.7.6
+export PATH="$HOME/.rbenv/shims:$PATH"
 
 # source /usr/local/opt/chruby/share/chruby/chruby.sh
 
