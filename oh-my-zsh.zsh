@@ -9,7 +9,7 @@ DISABLE_UPDATE_PROMPT=true
 plugins=(
   git
   bundler
-  osx
+  macos
   rake
   ruby
   jsontools

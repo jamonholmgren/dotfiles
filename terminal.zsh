@@ -21,6 +21,10 @@ alias cat=ccat
 alias rrm="\rm"
 alias rm=trash
 
+alias p="pnpm"
+
+alias oldbrew=/usr/local/bin/brew
+
 function dnd () {
   osascript -e "
     tell application \"System Events\" to tell process \"SystemUIServer\"

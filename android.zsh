@@ -5,5 +5,9 @@ export ANDROID_SDK=$ANDROID_HOME
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+export ANDROID_AVD_HOME=$HOME/.Android/avd
+
+# homebrew told me to add this when i installed openjdk...i guess
+# export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
 
 alias pixel2="$ANDROID_HOME/emulator/emulator -netdelay none -netspeed full -no-snapshot-save -avd Pixel_2_API_28"
