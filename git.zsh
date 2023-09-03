@@ -48,3 +48,6 @@ alias gchange='gh-changelog -m -s `git log --tags --pretty="format:%cI" -n1`'
 
 # Git deploy setup (for super easy static/PHP site deployments using Git)
 source './git-deploy.sh'
+
+# GitHub Copilot in the terminal: https://copilot.github.com
+eval "$(github-copilot-cli alias -- "$0")"

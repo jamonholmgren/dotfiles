@@ -2,8 +2,8 @@
 export ZSH=$HOME/.oh-my-zsh
 
 # ZSH_THEME="random" # To discover new themes
-# Favorites: sunrise, apple, jbergantine, gozilla
-ZSH_THEME="gozilla"
+# Favorites: sunrise, apple, jbergantine, gozilla, miloshadzic
+ZSH_THEME="apple"
 DISABLE_UPDATE_PROMPT=true
 
 plugins=(
@@ -22,5 +22,8 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-# zsh syntax highlighting
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# for zsh-completions
+fpath=(/opt/homebrew/share/zsh-completions $fpath)
+export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/opt/homebrew/share/zsh-syntax-highlighting/highlighters
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
