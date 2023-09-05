@@ -28,4 +28,4 @@ source ./git.zsh         # git-specific settings
 # source ./deploy.zsh      # a handy deployment script for static websites
 
 # load asdf
-# . /opt/homebrew/opt/asdf/libexec/asdf.sh
+. $(brew --prefix asdf)/libexec/asdf.sh
