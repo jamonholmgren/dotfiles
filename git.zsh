@@ -2,6 +2,7 @@
 alias git="hub"
 
 # Git aliases
+alias ga="git add -N ."
 alias gac="git add -A && git commit -m "
 alias gam="git add -A && git commit --amend "
 alias gap="git add -p && git commit -m "
