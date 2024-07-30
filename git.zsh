@@ -51,4 +51,4 @@ alias gchange='gh-changelog -m -s `git log --tags --pretty="format:%cI" -n1`'
 source './git-deploy.sh'
 
 # GitHub Copilot in the terminal: https://copilot.github.com
-eval "$(github-copilot-cli alias -- "$0")"
+# eval "$(github-copilot-cli alias -- "$0")"

@@ -1,4 +1,5 @@
 # Copy this, and any other path info, to ~/.zprofile, and un-comment it
+# export PATH=$PATH:/opt/homebrew/bin
 # export PATH=$PATH:/usr/local/bin
 # export PATH=$PATH:/usr/local/Cellar/libxml2/2.9.1
 # export PATH=$PATH:/usr/local/sbin
@@ -22,6 +23,9 @@
 
 # Yarn
 # export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+# Homebrew
+# eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # zsh profile, if it exists, is where the customized dotfiles go
 source ~/.zprofile

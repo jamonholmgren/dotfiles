@@ -14,3 +14,6 @@ source ./js.zsh          # settings for JavaScript development
 source ./git.zsh         # git-specific settings
 # Other random stuff
 source ./random.zsh      # random aliases and functions
+
+# load asdf
+# . $(brew --prefix asdf)/libexec/asdf.sh

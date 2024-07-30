@@ -21,6 +21,6 @@ setup_jamon_environment () {
   # elixir
   # \curl -sSL https://raw.githubusercontent.com/taylor/kiex/master/install | bash -s
 
-  # bun https://bun.sh/
-  curl -fsSL https://bun.sh/install | bash
+  # sdkman
+  curl -s "https://get.sdkman.io" | bash
 }

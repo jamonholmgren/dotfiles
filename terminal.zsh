@@ -23,6 +23,10 @@ alias rrm="\rm"
 # https://twitter.com/jamonholmgren/status/967548502648668161
 alias rm=trash
 
+alias p="pnpm"
+
+alias oldbrew=/usr/local/bin/brew
+
 function dnd () {
   osascript -e "
     tell application \"System Events\" to tell process \"SystemUIServer\"
