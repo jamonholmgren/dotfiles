@@ -1,1 +1,1 @@
-alias gd="/Applications/Godot.app/Contents/MacOS/Godot"
+alias gdt="/Applications/Godot.app/Contents/MacOS/Godot"
