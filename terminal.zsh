@@ -27,6 +27,8 @@ alias p="pnpm"
 
 alias oldbrew=/usr/local/bin/brew
 
+alias restart_clue="cd ~/Code/clue-lite && git commit --allow-empty -m 'Force restarting' && git push && cd -"
+
 function dnd () {
   osascript -e "
     tell application \"System Events\" to tell process \"SystemUIServer\"
@@ -66,5 +68,20 @@ function change_video_speed {
    command="ffmpeg -i ${file} -filter_complex \"[0:v]setpts=${video_speed}*PTS[v];[0:a]atempo=${speed}[a]\" -map \"[v]\" -map \"[a]\" ${new_file}"
 
    eval $command
+}
+
+# clang build and run filename.c as filename
+# Usage: cb myfile
+# Runs clang on myfile.c to produce myfile, then runs myfile
+cb() {
+    CF="$1"
+    clang "$CF.s" -o "$CF" && ./"$CF"
+}
+
+# clang++ build and run filename.cpp as filename
+# Usage: ccb myfile
+ccb() {
+    CF="$1"
+    clang++ "$CF.cpp" -o "$CF" && ./"$CF"
 }
 
